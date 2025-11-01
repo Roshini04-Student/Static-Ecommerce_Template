@@ -1,0 +1,65 @@
+/*  Medial Queries */
+
+div{
+    position:relative;
+    height: 100px;
+    width:100px;
+    background-color: hotpink;
+    border-radius:50%;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in; 
+    /* transform: rotate(45deg); 
+    position: absolute; transition:all ease-in 1s;
+   
+    x */
+    top:100px;
+    left:100px;
+    /* animation-name: Myanimee;
+    animation-duration:0.5s;
+    animation-timing-function:inherit;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse; */
+animation:Myanimee 2s ease-in 0.5s infinite alternate-reverse;
+
+}
+
+/* @media (max-width : 300px) { 
+    div { 
+    background-color : green ;
+    } 
+    }
+
+@media (min-width:300px) and (max-width:400px) {
+        div{
+            background-color: pink;
+        }
+    } 
+    @media (min-width: 400px) and (max-width:600px){
+        div { 
+            background-color:red;
+        }
+    }
+    @media (min-width : 600px) { 
+        div { 
+        background-color : blue;
+        } 
+        }      
+
+ div:active{
+    background-color: blue;
+    
+ }   */    
+ /* div:hover{ */
+    /* background-color: yellow;
+    border:2px solid black ;
+    /* transform: skew(90deg); */
+                      
+ /* } */
+ @keyframes Myanimee {
+    from { left:0px;
+    background-color: blue;}
+    to { left:200x;
+    background-color: chocolate;}
+ }

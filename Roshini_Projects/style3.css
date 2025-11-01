@@ -1,0 +1,33 @@
+#box1{
+    background-color: blueviolet;
+    height:100px;
+    width:200px;
+    font-size:10px;
+}
+#box2{
+    background-color: cadetblue;
+
+    height:50px;
+    width:50%;
+    margin-left:20%;
+    font-size:2em;/*chnaged by using font-size of the parent's element;*/
+    width:5em;/* chanded bu using font-size in the child style*/
+/*width:5rem;changed using the root element aur the first element's font-size.*/
+height: 10vh;
+    
+}
+#level3{
+    height: 50px;
+    width:30px;
+    display:inline-block;
+    
+    background-color: bisque;
+    background-image: url(pistachios1.jpg);
+    background-size: cover;
+    
+}
+body{
+    background-image: url(pistachios1.jpg);
+    background-size: auto;
+    background-repeat:no-repeat
+}

@@ -1,0 +1,35 @@
+/*div{
+    background-color: hotpink;display:flex;
+    justify-content: center;}*/
+    
+
+a{
+    color:black;
+    text-decoration:none;
+
+}
+li{
+   list-style-type: none;
+   background-color:white;
+}
+.navbar{
+    background-color:hotpink;
+    display:flex;
+    justify-content: space-evenly;
+}
+.outer{
+    height: 600px;
+width:400px;
+    background-color:blue;
+    display:flex;
+    /*flex-direction:row;*/
+    justify-content: center;
+    align-items:center;/* btwn align-self and align-items align-self has the higher priority as it works individuals items*/
+    /* align-self:flex-end;
+ */}
+.inner{
+    height: 100px;
+    width:100px;
+    background-color:darkorchid;
+    /* align-self:flex-end; */
+}

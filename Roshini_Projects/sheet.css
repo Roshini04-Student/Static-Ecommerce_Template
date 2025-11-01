@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color:white;
+    color:black;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+        
+        
+    background-color: #f9f9f9;
+}
+header {
+    background-image: url("pistachios.jpg");
+    background: #4CAF50;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+header .container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+header p {
+    font-size: 1.2em;
+}
+header .cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ffffff;
+    color: #4CAF50;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+section#features {
+    padding: 40px 0;
+    text-align: center;
+}
+section#features .container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+section#features h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+.feature-box {
+    margin: 20px 0;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.feature-box h3 {
+    margin-top: 0;
+}
+footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+footer .container {
+    max-width: 960px;
+    margin: 0 auto;
+}
