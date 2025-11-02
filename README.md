@@ -48,7 +48,7 @@ A fully responsive product webpage featuring modern design principles and cross-
 ```bash
    git clone [your-repo-url]
 ```
-2. Open `index.html` in your browser
+2. Open `practise11.html` in your browser
 
 ## Author
 Roshini Priyanka
